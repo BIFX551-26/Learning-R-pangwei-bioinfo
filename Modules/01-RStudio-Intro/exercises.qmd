@@ -9,12 +9,12 @@ The exercises in this document follow along closely with [Lesson 1](https://swca
 ::: callout-tip
 ## Key Points
 
--   Use RStudio to write and run R programs.
--   R has the usual arithmetic operators and mathematical functions.
--   Use `<-` to assign values to variables.
--   Use `ls()` to list the variables in a program.
--   Use `rm()` to delete objects in a script.
--   Use `install.packages()` to install packages and `library()` to load them.
+- Use RStudio to write and run R programs.
+- R has the usual arithmetic operators and mathematical functions.
+- Use `<-` to assign values to variables.
+- Use `ls()` to list the variables in a program.
+- Use `rm()` to delete objects in a script.
+- Use `install.packages()` to install packages and `library()` to load them.
 :::
 
 #### Challenge 1
@@ -34,8 +34,15 @@ celsius2kelvin
 
 <!-- Challenge 1 answer begin -->
 
--   Valid
--   Invalid
+- Valid:
+  - min_height
+  - max.height
+  - .mass, MaxLength
+  - celsius2kelvin
+- Invalid:
+  - \_age
+  - min-length
+  - 2widths
 
 <!-- Challenge 1 answer end -->
 
@@ -52,6 +59,10 @@ age <- age - 20
 
 <!-- Challenge 2 answer begin -->
 
+`mass = 109.25`
+
+`age = 102`
+
 <!-- Challenge 2 answer end -->
 
 #### Challenge 3
@@ -61,7 +72,7 @@ Run the code from the previous challenge, and write a command to compare `mass` 
 <!-- Challenge 3 answer begin -->
 
 ```{r}
-# comparison code goes here
+mass > age
 ```
 
 <!-- Challenge 3 answer end -->
@@ -73,7 +84,8 @@ Clean up your working environment by deleting the mass and age variables.
 <!-- Challenge 4 answer begin -->
 
 ```{r}
-# code goes here
+rm(mass)
+rm(age)
 ```
 
 <!-- Challenge 4 answer end -->

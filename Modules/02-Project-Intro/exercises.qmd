@@ -9,10 +9,10 @@ The exercises in this document follow along closely with [Lesson 2](https://swca
 ::: callout-tip
 ## Key Points
 
--   Use RStudio to create and manage projects with consistent layout.
--   Treat raw data as read-only.
--   Treat generated output as disposable.
--   Separate function definition and application.
+- Use RStudio to create and manage projects with consistent layout.
+- Treat raw data as read-only.
+- Treat generated output as disposable.
+- Separate function definition and application.
 :::
 
 #### Challenge 1
