@@ -79,7 +79,8 @@ Compare the objects `output_vector` and `output_vector2`. Are they the same? If 
 
 <!-- Challenge 2 answer begin -->
 
-```{for (i in 1:5) {}
+```{r}
+for (i in 1:5) {
   for (j in 1:5) {
     temp_j_value <- j_vector[j]
     temp_output <- paste(i, temp_j_value)
